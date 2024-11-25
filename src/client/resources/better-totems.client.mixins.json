@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "better_totems.viper.protogen.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"ExampleClientMixin",
+		"ClientPlayNetworkHandlerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
