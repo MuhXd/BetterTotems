@@ -2,6 +2,7 @@ package better_totems.viper.protogen.Items;
 
 import better_totems.viper.protogen.BetterTotems;
 import better_totems.viper.protogen.Items.ItemBase.BaseItem;
+import better_totems.viper.protogen.Patches.VersionPatch;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -24,7 +25,7 @@ public class ModItems {
     public static final Item LevitationTotem = register("levitationtotem", 1,Rarity.EPIC);
 
     public static Item register(String id,int stack,Rarity SetRarity) {
-        Identifier Identid = Identifier.of(BetterTotems.MOD_ID, id);
+        Identifier Identid = VersionPatch.of(id);
         RegistryKey<Item> key = RegistryKey.of(RegistryKeys.ITEM, Identid);
         Item.Settings settings = new Item.Settings()
                 // If your item is based on a block

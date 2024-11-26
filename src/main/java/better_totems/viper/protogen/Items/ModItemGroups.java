@@ -2,6 +2,7 @@ package better_totems.viper.protogen.Items;
 
 
 import better_totems.viper.protogen.BetterTotems;
+import better_totems.viper.protogen.Patches.VersionPatch;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
@@ -16,7 +17,7 @@ import net.minecraft.util.Identifier;
 public class ModItemGroups {
     public static ItemGroup AnotherGroup = Registry.register(
                 Registries.ITEM_GROUP,
-                Identifier.of(BetterTotems.MOD_ID, "item_group"),
+                VersionPatch.of("item_group"),
                 FabricItemGroup.builder()
                         .displayName(Text.translatable("itemGroup."+BetterTotems.MOD_ID+".fungroup"))
                         .icon(() -> new ItemStack(ModItems.EvilTotem))

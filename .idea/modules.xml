@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FarbicMods.client.iml" filepath="$PROJECT_DIR$/.idea/modules/FarbicMods.client.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FarbicMods.main.iml" filepath="$PROJECT_DIR$/.idea/modules/FarbicMods.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FarbicMods.test.iml" filepath="$PROJECT_DIR$/.idea/modules/FarbicMods.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BetterTotems.client.iml" filepath="$PROJECT_DIR$/.idea/modules/BetterTotems.client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BetterTotems.main.iml" filepath="$PROJECT_DIR$/.idea/modules/BetterTotems.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BetterTotems.test.iml" filepath="$PROJECT_DIR$/.idea/modules/BetterTotems.test.iml" />
     </modules>
   </component>
 </project>
